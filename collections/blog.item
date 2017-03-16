@@ -35,6 +35,26 @@
           {postItemInjectCode}</div>
         {.end}
 
+        {# SOCIAL MEDIA ICONS - CUSTOM MAGFEST CODE. Dom wrote this and it's probably bad cause I R DUMB AT CSS DURRRR }
+        {# kinda from https://github.com/Squarefront/squarespace-dossier-template/blob/master/blocks/header.block }
+        {.if social_link_twitter}
+            <div class="sqs-svg-icon--outer social-icon-alignment-center social-icons-color-white
+                        social-icons-size-medium social-icons-shape-circle social-icons-style-knockout" >
+              <nav class="sqs-svg-icon--list">
+                <a href="{social_link_twitter}" target="_blank" class="sqs-svg-icon--wrapper twitter">
+                  <div>
+                    <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
+                      <use class="sqs-use--icon" xlink:href="#twitter-icon"></use>
+                      <use class="sqs-use--mask" xlink:href="#twitter-mask"></use>
+                    </svg>
+                  </div>
+                </a>
+              </nav>
+            </div>
+        {.end}
+
+        {# END SOCIAL MEDIA ICONS - CUSTOM MAGFEST CODE }
+
       </div>
       
     </article>
