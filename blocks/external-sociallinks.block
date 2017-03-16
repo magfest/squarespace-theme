@@ -1,0 +1,28 @@
+{# SOCIAL MEDIA ICONS - CUSTOM MAGFEST CODE. Dom wrote this and it's probably bad cause I R DUMB AT CSS DURRRR }
+{# original kinda from https://github.com/Squarefront/squarespace-dossier-template/blob/master/blocks/header.block }
+
+<div class="sqs-svg-icon--outer social-icon-alignment-center">
+  <nav class="sqs-svg-icon--list">
+
+      {.if @.customContent.social_link_twitter}
+      <a class="clrtwit" href="{@.customContent.social_link_twitter}" title="Twitter">
+        <span class="fa-stack fa-lg" aria-label="Website" role="img">
+          <i class="fa fa-square fa-stack-2x"></i>
+          <i class="fa fa-twitter fa-stack-1x whitetxt"></i>
+        </span>
+      </a>
+      {.end}
+
+      {.if @.customContent.social_link_facebook}
+      <a class="clrfb" href="{@.customContent.social_link_facebook}" title="Facebook">
+          <span class="fa-stack fa-lg" aria-label="Facebook" role="img">
+            <i class="fa fa-square fa-stack-2x"></i>
+            <i class="fa fa-facebook fa-stack-1x whitetxt"></i>
+          </span>
+      </a>
+      {.end}
+
+  </nav>
+</div>
+
+{# END SOCIAL MEDIA ICONS - CUSTOM MAGFEST CODE }
