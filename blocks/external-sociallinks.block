@@ -4,8 +4,8 @@
 <div class="sqs-svg-icon--outer social-icon-alignment-center">
   <nav class="sqs-svg-icon--list">
 
-      {.if @.customContent.social_link_twitter}
-      <a class="clrtwit" href="{@.customContent.social_link_twitter}" title="Twitter">
+      {.if customContent.social_link_twitter}
+      <a class="clrtwit" href="{customContent.social_link_twitter}" title="Twitter">
         <span class="fa-stack fa-lg" aria-label="Website" role="img">
           <i class="fa fa-square fa-stack-2x"></i>
           <i class="fa fa-twitter fa-stack-1x whitetxt"></i>
@@ -13,8 +13,8 @@
       </a>
       {.end}
 
-      {.if @.customContent.social_link_facebook}
-      <a class="clrfb" href="{@.customContent.social_link_facebook}" title="Facebook">
+      {.if customContent.social_link_facebook}
+      <a class="clrfb" href="{customContent.social_link_facebook}" title="Facebook">
           <span class="fa-stack fa-lg" aria-label="Facebook" role="img">
             <i class="fa fa-square fa-stack-2x"></i>
             <i class="fa fa-facebook fa-stack-1x whitetxt"></i>
